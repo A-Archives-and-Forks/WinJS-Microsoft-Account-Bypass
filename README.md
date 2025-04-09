@@ -4,6 +4,10 @@
 
 This guide explains a method to bypass the Microsoft Account (MSA) requirement during the Windows 11 Out-Of-Box Experience (OOBE) by using the Developer Console to invoke a hidden local account setup screen. This method was discovered by examining the Windows 11 OOBE source code, which revealed an event listener for a hidden `_localAccountButton`.
 
+> [!NOTE]
+> A faster method has since been discovered using Command Prompt ([Source](https://x.com/witherornot1337/status/1906050664741937328)), this repo was made 7 months prior to that discovery.<br/>
+> The method I have documented is still the only known method for S-Mode installations.
+
 Following these steps, you can create a local account without needing to sign in with or create a Microsoft account.
 
 I also have a [Youtube Tutorial](https://youtu.be/PnePd_defik) that follows the same instructions below
